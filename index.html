@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ruiyang Xia、Lin Yuan、Jiawei Zhang 与 Xiao Pu 自 2022 年以来的团队论文主页。"
+    />
+    <meta name="theme-color" content="#0b2239" />
+    <title>Team Publications · 2022—Now</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#publications">跳到论文列表</a>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Team Publications 首页">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 42">
+            <path d="M9 8h18l6 6v20H9z" />
+            <path d="M27 8v7h6M15 21h12M15 27h9" />
+          </svg>
+        </span>
+        <span>
+          <strong>Team Publications</strong>
+          <small>Research, connected.</small>
+        </span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#members">团队</a>
+        <a href="#insights">概览</a>
+        <a href="#publications">论文</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Publications · 2022—Now</p>
+          <h1 id="hero-title">Ideas become stronger<br />when they <em>connect.</em></h1>
+          <p class="hero-lead">
+            汇集团队成员自 2022 年以来的研究成果。每篇论文只出现一次，
+            合著关系则被保留下来，形成一张持续生长的研究网络。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#publications">浏览全部论文</a>
+            <a class="button button-quiet" href="#members">认识团队 <span aria-hidden="true">↘</span></a>
+          </div>
+          <dl class="hero-stats" aria-label="论文统计">
+            <div>
+              <dt id="paper-count">—</dt>
+              <dd>篇独立论文</dd>
+            </div>
+            <div>
+              <dt id="collab-count">—</dt>
+              <dd>篇团队内合著</dd>
+            </div>
+            <div>
+              <dt id="year-range">—</dt>
+              <dd>收录年份</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-art" aria-label="论文与团队协作的抽象插画">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <svg class="constellation" viewBox="0 0 580 560" role="img" aria-labelledby="art-title">
+            <title id="art-title">由论文页面和协作节点构成的研究网络</title>
+            <defs>
+              <linearGradient id="paperFill" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#ffffff" />
+                <stop offset="1" stop-color="#eef5f4" />
+              </linearGradient>
+              <filter id="paperShadow" x="-30%" y="-30%" width="160%" height="180%">
+                <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#17324b" flood-opacity=".18" />
+              </filter>
+            </defs>
+            <g class="art-lines">
+              <path d="M108 120L263 191L447 98" />
+              <path d="M263 191L462 326L370 470" />
+              <path d="M263 191L102 393L370 470" />
+              <path d="M447 98L462 326" />
+            </g>
+            <g class="paper-sheet" filter="url(#paperShadow)" transform="rotate(-5 290 280)">
+              <path d="M177 92h190l76 75v286H177z" fill="url(#paperFill)" />
+              <path d="M367 92v77h76" fill="#d8ebe8" />
+              <rect x="218" y="163" width="113" height="10" rx="5" fill="#17324b" opacity=".9" />
+              <rect x="218" y="188" width="160" height="7" rx="3.5" fill="#8ba2ae" />
+              <rect x="218" y="205" width="137" height="7" rx="3.5" fill="#a9bbc2" />
+              <rect x="218" y="252" width="70" height="95" rx="8" fill="#d8ebe8" />
+              <path d="M231 325l17-25 13 13 14-26" fill="none" stroke="#1b9aaa" stroke-width="6" stroke-linecap="round" />
+              <rect x="307" y="252" width="95" height="9" rx="4.5" fill="#ef6a5b" />
+              <rect x="307" y="278" width="75" height="7" rx="3.5" fill="#93aab3" />
+              <rect x="307" y="296" width="92" height="7" rx="3.5" fill="#b3c2c7" />
+              <rect x="307" y="314" width="84" height="7" rx="3.5" fill="#b3c2c7" />
+              <rect x="218" y="377" width="184" height="7" rx="3.5" fill="#a9bbc2" />
+              <rect x="218" y="397" width="153" height="7" rx="3.5" fill="#c1cdd0" />
+            </g>
+            <g class="art-node node-coral"><circle cx="108" cy="120" r="21" /><text x="108" y="126">RX</text></g>
+            <g class="art-node node-teal"><circle cx="447" cy="98" r="21" /><text x="447" y="104">LY</text></g>
+            <g class="art-node node-purple"><circle cx="102" cy="393" r="21" /><text x="102" y="399">JZ</text></g>
+            <g class="art-node node-gold"><circle cx="370" cy="470" r="21" /><text x="370" y="476">XP</text></g>
+            <g class="mini-dot"><circle cx="462" cy="326" r="8" /><circle cx="263" cy="191" r="8" /></g>
+          </svg>
+          <div class="art-note note-one"><span>01</span> Find a question</div>
+          <div class="art-note note-two"><span>02</span> Build together</div>
+          <div class="art-caption">A living map of shared inquiry</div>
+        </div>
+      </section>
+
+      <section class="members section-shell" id="members" aria-labelledby="members-title">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> The team</p>
+            <h2 id="members-title">四位作者，一组交叉的研究方向</h2>
+          </div>
+          <p>点击作者卡片可访问对应的 Google Scholar 主页。</p>
+        </header>
+        <div class="member-grid" id="member-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="insights section-shell" id="insights" aria-labelledby="insights-title">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> At a glance</p>
+            <h2 id="insights-title">研究脉络，一眼可见</h2>
+          </div>
+          <p>年度趋势与团队内部合著关系均由论文数据实时生成。</p>
+        </header>
+        <div class="insight-grid">
+          <article class="insight-card trend-card">
+            <div class="card-heading">
+              <div>
+                <span class="card-kicker">YEARLY OUTPUT</span>
+                <h3>年度论文趋势</h3>
+              </div>
+              <span class="live-pill"><i></i> Live data</span>
+            </div>
+            <div class="bar-chart" id="year-chart" aria-label="按年份统计的论文数量"></div>
+          </article>
+          <article class="insight-card network-card">
+            <div class="card-heading">
+              <div>
+                <span class="card-kicker">COAUTHORSHIP</span>
+                <h3>团队合作网络</h3>
+              </div>
+              <span class="network-legend"><i></i> 线宽代表合著篇数</span>
+            </div>
+            <svg id="network-chart" class="network-chart" viewBox="0 0 560 300" role="img" aria-label="团队作者合著网络"></svg>
+          </article>
+        </div>
+      </section>
+
+      <section class="publications section-shell" id="publications" aria-labelledby="publications-title">
+        <header class="section-heading publication-heading">
+          <div>
+            <p class="eyebrow"><span></span> Publication archive</p>
+            <h2 id="publications-title">论文档案</h2>
+          </div>
+          <p id="data-note"></p>
+        </header>
+
+        <form class="filters" id="filters" role="search">
+          <label class="search-field">
+            <span class="sr-only">搜索论文</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4 4" /></svg>
+            <input id="search-input" type="search" placeholder="搜索标题、作者或期刊…" autocomplete="off" />
+            <kbd>/</kbd>
+          </label>
+          <label>
+            <span class="sr-only">按年份筛选</span>
+            <select id="year-filter"><option value="">全部年份</option></select>
+          </label>
+          <label>
+            <span class="sr-only">按团队作者筛选</span>
+            <select id="author-filter"><option value="">全部作者</option></select>
+          </label>
+          <label>
+            <span class="sr-only">按研究主题筛选</span>
+            <select id="topic-filter"><option value="">全部主题</option></select>
+          </label>
+          <button type="reset" class="reset-button" id="reset-button">清除</button>
+        </form>
+
+        <div class="results-meta">
+          <p id="results-count" aria-live="polite"></p>
+          <div class="view-note"><span></span> 已按正式版本去重</div>
+        </div>
+        <div class="paper-list" id="paper-list" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <svg viewBox="0 0 80 80" aria-hidden="true"><path d="M20 14h30l12 12v40H20z" /><path d="M50 14v13h12M30 40h22M30 49h16" /></svg>
+          <h3>没有找到匹配的论文</h3>
+          <p>试试缩短关键词，或清除部分筛选条件。</p>
+          <button class="button button-primary" type="button" id="empty-reset">清除筛选</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span class="footer-mark" aria-hidden="true">↗</span>
+        <p><strong>Team Publications</strong><br />Curated research, connected people.</p>
+      </div>
+      <p>数据更新于 <time id="last-updated">—</time> · Built for GitHub Pages</p>
+    </footer>
+
+    <noscript>
+      <div class="noscript">本页面需要启用 JavaScript 才能加载论文数据与筛选功能。</div>
+    </noscript>
+  </body>
+</html>
