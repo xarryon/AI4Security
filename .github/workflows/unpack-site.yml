@@ -23,7 +23,7 @@ jobs:
           unzip -q team-publications-github.zip -d .unpacked
           cp -a .unpacked/team-publications/. .
           rm -rf .unpacked
-          rm -f .github/workflows/unpack-site.yml
+          rm -f .github/workflows/pages.yml
 
       - name: Commit extracted site
         shell: bash
